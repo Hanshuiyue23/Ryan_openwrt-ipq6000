@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: 360t7-23
+name: zn-m2
 
 on:
   repository_dispatch:
@@ -20,10 +20,10 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/BGzEroll/immortalwrt.git
+  REPO_URL: https://github.com/VIKINGYFY/immortalwrt.git
   REPO_BRANCH: openwrt-23.05
   FEEDS_CONF: feeds.conf.immortalwrt-23
-  CONFIG_FILE: 360t7-23.config
+  CONFIG_FILE: .config
   DIY_P1_SH: expackages.sh
   DIY_P2_SH: mainrouter.sh
   UPLOAD_BIN_DIR: false
