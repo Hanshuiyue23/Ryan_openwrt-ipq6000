@@ -22,8 +22,8 @@ on:
 env:
   REPO_URL: https://github.com/VIKINGYFY/immortalwrt.git
   REPO_BRANCH: main
-  FEEDS_CONF: feeds.conf.immortalwrt-23
-  CONFIG_FILE: .config
+  FEEDS_CONF: feeds.conf.immortalwrt
+  CONFIG_FILE: iPQ6000.config
   DIY_P1_SH: expackages.sh
   DIY_P2_SH: mainrouter.sh
   UPLOAD_BIN_DIR: false
