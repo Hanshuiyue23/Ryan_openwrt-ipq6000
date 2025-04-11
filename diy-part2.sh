@@ -10,8 +10,8 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 
 # Modify default theme
-sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
+# sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.114.1/g' package/base-files/files/bin/config_generate
-#sed -i "s/hostname='OpenWrt'/hostname='OpenWrt_BGzErol'/g" ./package/base-files/files/bin/config_generate
+# sed -i "s/hostname='OpenWrt'/hostname='OpenWrt_BGzErol'/g" ./package/base-files/files/bin/config_generate
